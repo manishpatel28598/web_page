@@ -7,7 +7,7 @@ function App() {
       <body>
     <div classNameName="container"/>
       <header>
-        <button type="button">Compnay name</button>
+        <button type="button">VeriTech IT Services</button>
         <br/>
         <p className="headpara">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum eius
