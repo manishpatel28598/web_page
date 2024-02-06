@@ -1,24 +1,156 @@
-import logo from './logo.svg';
+import profilepic from './profilepic.jpg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div>
+      <body>
+    <div classNameName="container"/>
+      <header>
+        <button type="button">Compnay name</button>
+        <br/>
+        <p className="headpara">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum eius
+          id ipsam corporis corrupti optio adipisci eos. Ea veniam officiis
+          dolore maiores facilis corporis itaque ipsum! Corporis enim quae sint.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <br/>
+        <div className="horizontal_line"></div>
       </header>
-    </div>
+      <section >
+        <div className="meet_our_team">
+            <h1>MEET OUR TEAM</h1>
+            <br/>
+            <button className="btn" type="button">Management_team</button>
+        </div>
+        <div className="profile1">
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+
+        </div>
+        <div className="profile1">
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+
+        </div>
+      </section>
+      <section>
+        <div className="profile1">
+            <button className="btn" type="button">HR_team</button>
+        </div>
+        <div className="profile1">
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+
+        </div>
+        <div className="profile1">
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+
+        </div>
+      </section>
+      <section>
+        <div className="profile1">
+            <button className="btn" type="button">HR_team</button>
+        </div>
+        <div className="profile1">
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+
+        </div>
+        <div className="profile1">
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+            <div className="profile">
+                <img  className="profile_pic" src={profilepic} alt="img"/>
+                 <h3>Name 1</h3>
+                 <p>Designation</p>
+            </div>
+
+        </div>
+      </section>
+    <div/>
+  </body>
+  </div>
+
   );
 }
 
