@@ -1,3 +1,4 @@
+//this is a React Js based task-1 of my first 4 week internship program
 import profilepic from './profilepic.jpg';
 import './App.css';
 
