@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <body>
-    <div classNameName="container"/>
+    <div className="container"/>
       <header>
         <button type="button">VeriTech IT Services</button>
         <br/>
